@@ -1,4 +1,4 @@
-from CRC import crc16, crc8
+from crc import crc16, crc8
 if __name__ == "__main__":
     print(crc8("ss"))
     val = crc8("Hello "+"World", initial=0, finalXorVal=1)
