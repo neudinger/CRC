@@ -1,5 +1,8 @@
 # CRC
 
+[![GitHub license](https://img.shields.io/badge/license-EUPL-blue.svg)](https://raw.githubusercontent.com/herotc/hero-rotation/master/LICENSE)
+
+
 ## Descriptions
 
 This Script is small crc function
