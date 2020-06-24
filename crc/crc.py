@@ -6,6 +6,8 @@ __credits__ = ["Stanislas de Maigret (INA-engineer)",
                "https://foxcub.fr/"]
 __email__ = "kevin.barre@epitech.eu"
 __status__ = "Production"
+__contact__ = "https://www.linkedin.com/in/kevin-barre-neudinger/"
+__license__ = "EUPL"
 
 
 from functools import reduce
