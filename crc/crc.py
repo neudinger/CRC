@@ -45,7 +45,7 @@ def crc8(string: str, initial: int = 0, finalXorVal: int = 0) -> int:  # byte or
     >>> chr(values)
     'Ê'
     """
-    try :
+    try:
         from polytables import polyTable8Bits
     except ImportError:
         from .polytables import polyTable8Bits
@@ -85,11 +85,11 @@ def crc16(string: str, initial: int = 0xFFFF) -> int:  # 2 bytes
     >>> chr(values)
     '遠'
     """
-    try :
-        from polytables import _crc16CCITT
+    try:
+        from polytables import crc16CCITT
     except ImportError:
-        from .polytables import _crc16CCITT
-    return reduce(_crc16CCITT, string, initial)
+        from .polytables import crc16CCITT
+    return reduce(crc16CCITT, string, initial)
 
 
 if __name__ == "__main__":
